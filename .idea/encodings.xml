@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/mscloud-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-config-client-7766/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-config-eureka-client-7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-config-server-7755/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-config-user-client-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-consumer-hystrix-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-consumer-hystrix-turbine/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-consumer-user-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-consumer-user-80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-consumer-user-ribbon-80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-consumer-user-ribbon-80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-eureka-7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-eureka-7002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-eureka-7003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-eureka-7003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-provider-user-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-provider-user-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-provider-user-8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-provider-user-8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-provider-user-8003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-provider-user-8003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-provider-user-hystrix-8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-provider-user-hystrix-8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mscloud-zuul-gateway-6001/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for mscloud-01" enabled="true">
+        <sourceOutputDir name="../mscloud-eureka-7003/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../mscloud-eureka-7003/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mscloud-eureka-7001 (1)" />
+      </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mscloud-config-server-7755" />
+        <module name="mscloud-provider-user-8001 (2)" />
+        <module name="mscloud-consumer-user-80 (3)" />
+        <module name="mscloud-provider-user-8001 (3)" />
+        <module name="mscloud-config-eureka-client-7001" />
+        <module name="mscloud-config-user-client-8001" />
+        <module name="mscloud-provider-user-8001 (4)" />
+        <module name="mscloud-consumer-hystrix-dashboard" />
+        <module name="mscloud-config-client-7766" />
+        <module name="mscloud-consumer-hystrix-turbine" />
+        <module name="mscloud-eureka-7001 (2)" />
+        <module name="mscloud-consumer-user-80 (1)" />
+        <module name="mscloud-eureka-7001 (3)" />
+        <module name="mscloud-zuul-gateway-6001" />
+        <module name="mscloud-provider-user-8001 (1)" />
+        <module name="mscloud-api" />
+      </profile>
+      <profile name="Annotation profile for mscloud-provider-user-8001 (5)" enabled="true">
+        <sourceOutputDir name="../mscloud-provider-user-8002/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../mscloud-provider-user-8002/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mscloud-provider-user-8001 (5)" />
+      </profile>
+      <profile name="Annotation profile for mscloud-consumer-user-80 (2)" enabled="true">
+        <sourceOutputDir name="../mscloud-consumer-user-80/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../mscloud-consumer-user-80/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mscloud-consumer-user-80 (2)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mscloud-01" target="1.8" />
+      <module name="mscloud-api" target="1.8" />
+      <module name="mscloud-config-client-7766" target="1.8" />
+      <module name="mscloud-config-eureka-client-7001" target="1.8" />
+      <module name="mscloud-config-server-7755" target="1.8" />
+      <module name="mscloud-config-user-client-8001" target="1.8" />
+      <module name="mscloud-consumer-hystrix-dashboard" target="1.8" />
+      <module name="mscloud-consumer-hystrix-turbine" target="1.8" />
+      <module name="mscloud-consumer-user-80 (1)" target="1.8" />
+      <module name="mscloud-consumer-user-80 (2)" target="1.8" />
+      <module name="mscloud-consumer-user-80 (3)" target="1.8" />
+      <module name="mscloud-eureka-7001 (1)" target="1.8" />
+      <module name="mscloud-eureka-7001 (2)" target="1.8" />
+      <module name="mscloud-eureka-7001 (3)" target="1.8" />
+      <module name="mscloud-provider-user-8001 (1)" target="1.8" />
+      <module name="mscloud-provider-user-8001 (2)" target="1.8" />
+      <module name="mscloud-provider-user-8001 (3)" target="1.8" />
+      <module name="mscloud-provider-user-8001 (4)" target="1.8" />
+      <module name="mscloud-provider-user-8001 (5)" target="1.8" />
+      <module name="mscloud-zuul-gateway-6001" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mscloud-api" options="-parameters" />
+      <module name="mscloud-config-client-7766" options="-parameters" />
+      <module name="mscloud-config-eureka-client-7001" options="-parameters" />
+      <module name="mscloud-config-server-7755" options="-parameters" />
+      <module name="mscloud-config-user-client-8001" options="-parameters" />
+      <module name="mscloud-consumer-hystrix-dashboard" options="-parameters" />
+      <module name="mscloud-consumer-hystrix-turbine" options="-parameters" />
+      <module name="mscloud-consumer-user-80 (2)" options="-parameters" />
+      <module name="mscloud-eureka-7001 (1)" options="-parameters" />
+      <module name="mscloud-provider-user-8001 (5)" options="-parameters" />
+      <module name="mscloud-zuul-gateway-6001" options="-parameters" />
+    </option>
+  </component>
+</project>

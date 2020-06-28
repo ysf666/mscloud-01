@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+  <groupId>com.neuedu.springcloud</groupId>
+  <artifactId>mscloud-01</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+  <!-- 指定spring boot版本 -->
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.0.3.RELEASE</version>
+		<relativePath />
+		<!-- lookup parent from repository -->
+	</parent>
+
+	<!-- 指定spring cloud版本和jdk版本 -->
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+		<spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
+	</properties>
+
+	<!-- 引入 spring-cloud模块 -->
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+		<!-- 引入 spring-boot测试模块 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<!-- <build>
+		<plugins>
+			引入 spring-boot插件模块
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build> -->
+	<build>
+		<finalName>mscloud</finalName>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<configuration>
+					<delimiters>
+						<delimit>$</delimit>
+					</delimiters>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<repositories>
+		<repository>
+			<id>spring-milestones</id>
+			<name>Spring Milestones</name>
+			<url>https://repo.spring.io/milestone</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+	
+  <modules>
+  
+  	<module>mscloud-provider-user-8001</module>
+  	<module>mscloud-api</module>
+  	<module>mscloud-consumer-user-80</module>
+
+  	<module>mscloud-eureka-7001</module>
+
+  	<module>mscloud-eureka-7002</module>
+  	<module>mscloud-eureka-7003</module>
+  	<module>mscloud-consumer-user-ribbon-80</module>
+  	<module>mscloud-provider-user-8002</module>
+  	<module>mscloud-provider-user-8003</module>
+  	<module>mscloud-consumer-user-feign</module>
+  	<module>mscloud-provider-user-hystrix-8001</module>
+  	<module>mscloud-consumer-hystrix-dashboard</module>
+  	<module>mscloud-consumer-hystrix-turbine</module>
+  	<module>mscloud-provider-user-hystrix-8002</module>
+  	<module>mscloud-zuul-gateway-6001</module>
+  	<module>mscloud-config-server-7755</module>
+  	<module>mscloud-config-client-7766</module>
+  	<module>mscloud-config-eureka-client-7001</module>
+  	<module>mscloud-config-user-client-8001</module>
+  </modules>
+  
+  
+</project>

@@ -1,0 +1,17 @@
+# Project exclude paths
+/mscloud-api/target/
+/mscloud-config-client-7766/target/
+/mscloud-config-eureka-client-7001/target/
+/mscloud-config-server-7755/target/
+/mscloud-config-user-client-8001/target/
+/mscloud-consumer-hystrix-dashboard/target/
+/mscloud-consumer-hystrix-turbine/target/
+/mscloud-consumer-user-80/target/
+/mscloud-consumer-user-ribbon-80/target/
+/mscloud-eureka-7002/target/
+/mscloud-eureka-7003/target/
+/mscloud-provider-user-8001/target/
+/mscloud-provider-user-8002/target/
+/mscloud-provider-user-8003/target/
+/mscloud-provider-user-hystrix-8001/target/
+/mscloud-zuul-gateway-6001/target/

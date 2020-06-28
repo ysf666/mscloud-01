@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: mscloud-consumer-user-80
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Administrator
+Implementation-Vendor-Id: com.neuedu.springcloud
+Build-Jdk: 1.8.0_51
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/mscloud-01/mscloud-consumer-user-80
+Created-By: Maven Integration for Eclipse
+

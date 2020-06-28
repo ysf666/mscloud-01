@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mscloud-01.iml" filepath="$PROJECT_DIR$/mscloud-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-api/mscloud-api.iml" filepath="$PROJECT_DIR$/mscloud-api/mscloud-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-config-client-7766/mscloud-config-client-7766.iml" filepath="$PROJECT_DIR$/mscloud-config-client-7766/mscloud-config-client-7766.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-config-eureka-client-7001/mscloud-config-eureka-client-7001.iml" filepath="$PROJECT_DIR$/mscloud-config-eureka-client-7001/mscloud-config-eureka-client-7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-config-server-7755/mscloud-config-server-7755.iml" filepath="$PROJECT_DIR$/mscloud-config-server-7755/mscloud-config-server-7755.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-config-user-client-8001/mscloud-config-user-client-8001.iml" filepath="$PROJECT_DIR$/mscloud-config-user-client-8001/mscloud-config-user-client-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-consumer-hystrix-dashboard/mscloud-consumer-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/mscloud-consumer-hystrix-dashboard/mscloud-consumer-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-consumer-hystrix-turbine/mscloud-consumer-hystrix-turbine.iml" filepath="$PROJECT_DIR$/mscloud-consumer-hystrix-turbine/mscloud-consumer-hystrix-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-consumer-user-80/mscloud-consumer-user-80 (1).iml" filepath="$PROJECT_DIR$/mscloud-consumer-user-80/mscloud-consumer-user-80 (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-consumer-user-feign/mscloud-consumer-user-80 (2).iml" filepath="$PROJECT_DIR$/mscloud-consumer-user-feign/mscloud-consumer-user-80 (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-consumer-user-ribbon-80/mscloud-consumer-user-80 (3).iml" filepath="$PROJECT_DIR$/mscloud-consumer-user-ribbon-80/mscloud-consumer-user-80 (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-eureka-7001/mscloud-eureka-7001 (1).iml" filepath="$PROJECT_DIR$/mscloud-eureka-7001/mscloud-eureka-7001 (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-eureka-7002/mscloud-eureka-7001 (2).iml" filepath="$PROJECT_DIR$/mscloud-eureka-7002/mscloud-eureka-7001 (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-eureka-7003/mscloud-eureka-7001 (3).iml" filepath="$PROJECT_DIR$/mscloud-eureka-7003/mscloud-eureka-7001 (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-provider-user-8001/mscloud-provider-user-8001 (1).iml" filepath="$PROJECT_DIR$/mscloud-provider-user-8001/mscloud-provider-user-8001 (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-provider-user-8002/mscloud-provider-user-8001 (2).iml" filepath="$PROJECT_DIR$/mscloud-provider-user-8002/mscloud-provider-user-8001 (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-provider-user-8003/mscloud-provider-user-8001 (3).iml" filepath="$PROJECT_DIR$/mscloud-provider-user-8003/mscloud-provider-user-8001 (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-provider-user-hystrix-8001/mscloud-provider-user-8001 (4).iml" filepath="$PROJECT_DIR$/mscloud-provider-user-hystrix-8001/mscloud-provider-user-8001 (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-provider-user-hystrix-8002/mscloud-provider-user-8001 (5).iml" filepath="$PROJECT_DIR$/mscloud-provider-user-hystrix-8002/mscloud-provider-user-8001 (5).iml" />
+      <module fileurl="file://$PROJECT_DIR$/mscloud-zuul-gateway-6001/mscloud-zuul-gateway-6001.iml" filepath="$PROJECT_DIR$/mscloud-zuul-gateway-6001/mscloud-zuul-gateway-6001.iml" />
+    </modules>
+  </component>
+</project>
